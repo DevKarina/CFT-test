@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <title>Тестовое ЦФТ</title>
+    <link rel="stylesheet" href="style.css"></linkrel>
+  </head>
+  <body>
+    <div>
+    <input type="text" id = "text" placeholder="Введите текст">
+    <input
+    type="button"
+    value="Найти"
+    onclick="search()"
+    />
+    </div>
+    <output id="city"></output>
+    <br />
+    <div class="table">
+        <div class="moscow column">
+            <div class="row header">Московская область</div>
+            <div class="row row--moscow">Химки</div>
+            <div class="row row--moscow">Одинцово</div>
+            <div class="row row--moscow">Мытищи</div>
+            <div class="row row--moscow">Жуковский</div>
+        </div>
+        <div class="leningrad column">
+            <div class="row header">Ленинградская область</div>
+            <div class="row row--leningrad">Гатчина</div>
+            <div class="row row--leningrad">Мурино</div>
+            <div class="row row--leningrad">Выборг</div>
+            <div class="row row--leningrad">Кудрово</div>
+        </div>
+        <div class="tyumen column">
+            <div class="row header">Тюменская область</div>
+            <div class="row row--tuymen">Тюмень</div>
+            <div class="row row--tuymen">Сургут</div>
+            <div class="row row--tuymen">Тобольск</div>
+            <div class="row row--tuymen">Ишим</div>
+        </div>
+        <div class="krasnodar column">
+            <div class="row header">Краснодарский край</div>
+            <div class="row row--krasnodar">Краснодар</div>
+            <div class="row row--krasnodar">Сочи</div>
+            <div class="row row--krasnodar">Новороссийск</div>
+            <div class="row row--krasnodar">Ейск</div>
+        </div>
+        <div class="krasnoyarsk column">
+            <div class="row header">Красноярский край</div>
+            <div class="row row--krasnoyarsk">Красноярск</div>
+            <div class="row row--krasnoyarsk">Канск</div>
+            <div class="row row--krasnoyarsk">Ачинск</div>
+            <div class="row row--krasnoyarsk">Норильск</div>
+        </div>
+     </div>
+</body>
+<script type="text/javascript" src="search.js"></script>
+</html>
